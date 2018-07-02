@@ -39,6 +39,8 @@
 \setlength{\topmargin}{-0.5in}
 \usetheme{confposter}
 \usepackage{exscale}
+\usepackage{subfigure}
+\usepackage{subcaption}
 
 %-----------------------------------------------------------
 % The next part fixes a problem with figure numbering. Thanks Nishan!
@@ -73,7 +75,7 @@
 %\title{\parbox[c]{38in}{Lineage diversification in the genus \textit{Solanum }L. (Solanaceae)}
 %\parbox[c]{5in{\includegraphics[width=5in]{./logos/ICL_logo.PNG}}\\ \includegraphics[width=5in]{./logos/ICL_logo.PNG}}}
 \title{Plant functional diversity and the biogeography of biomes in North and South America}
-\author{Susy Echeverr\'ia-Londo\~no$^{1*}$, Brian J. Enquist$^{2}$, Danilo M. Neves2$^{2}$, Cyrille Violle$^{3}$ \& Andrew J, Kerkhoff$^{1}$}
+\author{Susy Echeverr\'ia-Londo\~no$^{1*}$, Brian J. Enquist$^{2}$, Danilo M. Neves$^{2}$, Cyrille Violle$^{3}$ \& Andrew J, Kerkhoff$^{1}$}
 \institute{\small (1) Department of Biology, Kenyon College, Gambier, Ohio, USA; (2) Department of Ecology and Evolutionary Biology, University of Arizona, Tucson, Arizona, USA; (3) Centre d'Ecologie Fonctionnelle et Evolutive (UMR 5175), CNRS, Universit\'e de Montpellier, Universit\'e Paul Val\'ery, Montpellier, France \\ *echeverrialondono1@kenyon.edu}
 
 %-----------------------------------------------------------
@@ -88,81 +90,99 @@
   \begin{columns}[t]												% the [t] option aligns the column's content at the top
     \begin{column}{\sepwid}\end{column}			% empty spacer column
     \begin{column}{\onecolwid}
-      
+
       \small
       \begin{block}{Introduction}
-        
+
       \end{block}
       \vskip2ex
-      
-  		
+
+
   	\begin{block}{Aim}
-		
+
 	\end{block}
     \vskip2ex
-      		
+
      \begin{block}{Methods}
-    
+
 	\end{block}
 
 \vskip2ex
 
-      		
+
       		\begin{figure}[h]
       			\centering
-      			\includegraphics[scale=0.5]{./figures/Figure2.pdf}
+      			\includegraphics[width=\textwidth]{./figures/Trait_sampling}
       			%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
       			\caption{}
       			\label{fig:sampling}
       		\end{figure}
-      	
-      	
-      	\begin{figure}[h]
-      		\centering
-      		\includegraphics{./figures/Hypervolumes.png}
-      		%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
-      		\caption{}
-      		\label{fig:phylorate}
-      	\end{figure}
-      	
-      		
-		
+
+        \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{./figures/Figure3.pdf}
+        \caption{}
+        \label{fig:rate_variation}
+        \end{figure}
+
+
+
+
 
     \end{column}
 
- 
+
     \begin{column}{\sepwid}\end{column}			% empty spacer column
     \begin{column}{\twocolwid}							% create a two-column-wide column and then we will split it up later
-      
+
       \vskip2.5ex
       		 \begin{figure}[h]
       	\centering
       	\includegraphics[width=.75\textwidth]{./figures/Figure1.pdf}
       	\caption{}
       	\label{}
-	\end{figure}   
+	\end{figure}
+	
+
+
+	\begin{figure}[ht!]
+	\centering
+	\begin{subfigure}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
+		\caption{}
+		\label{}
+	\end{subfigure}%
+	~
+	\begin{subfigure}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./figures/Hypervolumes.png}
+		\caption{}
+		\label{}
+	\end{subfigure}
+	\caption{}
+	\label{}
+\end{figure}
+
+
 
 
 		 \begin{block}{Results}
-      
-		 \end{block}
- 
-     
- \end{column}
-  
+		 
+		 
 
-   
+		 \end{block}
+
+
+ \end{column}
+
+
+
   \begin{column}{\sepwid}\end{column}			% empty spacer column
   \begin{column}{\onecolwid}
-  
-  		      		
-      \begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.6]{./figures/Figure3.pdf}
-		\caption{}
-		\label{fig:rate_variation}
-		\end{figure}
-	
+
+
+
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.6]{./figures/Figure5.pdf}
@@ -174,37 +194,37 @@
 
 
 			\begin{block}{Discussion}
-   
+
       		\end{block}
-      		
+
       		\begin{block}{Next steps}
 
       		\end{block}
-      		
-      	      		
-      		
+
+
+
     \vskip2ex
-   
+
           		\begin{block}{References}
-           	
+
 		        \tiny{\begin{thebibliography}{99}
-		        
-		               	        
-		        
+
+
+
 		        \end{thebibliography}}
-		        
+
 			     \vspace{0.75in}
-			      
-		 		\end{block}   
-		 		
-		 		
+
+		 		\end{block}
+
+
       		\begin{block}{Acknowledgments}
-      				
-      		\end{block} 
-    
-    
+
+      		\end{block}
+
+
     \vskip2ex
-    
+
   \end{column}
   \begin{column}{\sepwid}\end{column}			% empty spacer column
  \end{columns}
