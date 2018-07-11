@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 JUL 2018 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 JUL 2018 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,6 +1081,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `poster.aux'.
 
@@ -1273,7 +1276,7 @@ Overfull \hbox (946.90773pt too wide) detected at line 88
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 231.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 206.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1281,51 +1284,84 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: ./figures/Trait_sampling.pdf Graphic file (type pdf)
 
 <use ./figures/Trait_sampling.pdf>
-Package pdftex.def Info: ./figures/Trait_sampling.pdf used on input line 231.
-(pdftex.def)             Requested size: 526.4358pt x 334.72867pt.
+Package pdftex.def Info: ./figures/Trait_sampling.pdf used on input line 206.
+(pdftex.def)             Requested size: 555.1528pt x 352.98773pt.
 
-<./figures/All_biomes_heatmap_logTraits.pdf, id=19, 505.89pt x 505.89pt>
+<./figures/Figure1.pdf, id=19, 842.3295pt x 495.83124pt>
+File: ./figures/Figure1.pdf Graphic file (type pdf)
+
+<use ./figures/Figure1.pdf>
+Package pdftex.def Info: ./figures/Figure1.pdf used on input line 206.
+(pdftex.def)             Requested size: 555.1528pt x 326.7881pt.
+
+Overfull \hbox (7.34334pt too wide) in paragraph at lines 206--206
+ []  [] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <14.88> on input line 206.
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <14.88> not available
+(Font)              size <14.4> substituted on input line 206.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.41595> not available
+(Font)              size <10> substituted on input line 206.
+
+
+<./figures/Hypervolume_sp_sample_gaussian20perc.pdf, id=20, 578.16pt x 505.89pt
+>
+File: ./figures/Hypervolume_sp_sample_gaussian20perc.pdf Graphic file (type pdf
+)
+ <use ./figures/Hypervolume_sp_sample_gaussian20perc.pdf>
+Package pdftex.def Info: ./figures/Hypervolume_sp_sample_gaussian20perc.pdf use
+d on input line 206.
+(pdftex.def)             Requested size: 263.2179pt x 230.31152pt.
+
+<./figures/Hypervolumes.png, id=21, 489.5088pt x 279.9258pt>
+File: ./figures/Hypervolumes.png Graphic file (type png)
+
+<use ./figures/Hypervolumes.png>
+Package pdftex.def Info: ./figures/Hypervolumes.png used on input line 206.
+(pdftex.def)             Requested size: 263.2179pt x 150.52124pt.
+
+Overfull \hbox (12.2389pt too wide) in paragraph at lines 206--206
+ []  [] 
+ []
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 206.
+
+<./figures/All_biomes_heatmap_logTraits.pdf, id=22, 505.89pt x 505.89pt>
 File: ./figures/All_biomes_heatmap_logTraits.pdf Graphic file (type pdf)
 
 <use ./figures/All_biomes_heatmap_logTraits.pdf>
 Package pdftex.def Info: ./figures/All_biomes_heatmap_logTraits.pdf used on inp
-ut line 231.
-(pdftex.def)             Requested size: 526.4358pt x 526.4451pt.
-
-<./figures/Figure1.pdf, id=20, 842.3295pt x 495.83124pt>
-File: ./figures/Figure1.pdf Graphic file (type pdf)
-
-<use ./figures/Figure1.pdf>
-Package pdftex.def Info: ./figures/Figure1.pdf used on input line 231.
-(pdftex.def)             Requested size: 832.7292pt x 490.18594pt.
+ut line 206.
+(pdftex.def)             Requested size: 354.12057pt x 354.12057pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 231.
+Package hyperref Warning: Ignoring empty anchor on input line 206.
 
-<./figures/Figure5.pdf, id=21, 573.58841pt x 1431.54538pt>
-File: ./figures/Figure5.pdf Graphic file (type pdf)
+<./figures/heatmaps.pdf, id=23, 713.65529pt x 1453.20345pt>
+File: ./figures/heatmaps.pdf Graphic file (type pdf)
 
-<use ./figures/Figure5.pdf>
-Package pdftex.def Info: ./figures/Figure5.pdf used on input line 231.
-(pdftex.def)             Requested size: 344.1557pt x 858.93387pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 231.
+<use ./figures/heatmaps.pdf>
+Package pdftex.def Info: ./figures/heatmaps.pdf used on input line 206.
+(pdftex.def)             Requested size: 315.86469pt x 643.20328pt.
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 231.
+Package hyperref Warning: Ignoring empty anchor on input line 206.
 
 
-Overfull \vbox (126.67352pt too high) detected at line 231
- []
+LaTeX Warning: Empty `thebibliography' environment on input line 206.
 
 File: ./logos/Kenyon_logo.png Graphic file (type png)
 <use ./logos/Kenyon_logo.png>
-Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 231.
+Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 206.
 (pdftex.def)             Requested size: 150.56364pt x 166.22227pt.
 File: ./logos/U_arizona.png Graphic file (type png)
  <use ./logos/U_arizona.png>
-Package pdftex.def Info: ./logos/U_arizona.png used on input line 231.
+Package pdftex.def Info: ./logos/U_arizona.png used on input line 206.
 (pdftex.def)             Requested size: 180.6672pt x 169.01416pt.
 
 Overfull \hbox (946.90773pt too wide) has occurred while \output is active
@@ -1340,14 +1376,15 @@ Overfull \hbox (36.135pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logos/Kenyon_logo.png> <./logos/U_arizona.png> <./figures/Trait_sampling.pd
-f> <./figures/All_biomes_heatmap_logTraits.pdf> <./figures/Figure1.pdf
+f> <./figures/Figure1.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Figure1.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
-> <./figures/Figure5.pdf
+> <./figures/Hypervolume_sp_sample_gaussian20perc.pdf> <./figures/Hypervolumes.
+png> <./figures/All_biomes_heatmap_logTraits.pdf> <./figures/heatmaps.pdf
 
-pdfTeX warning: pdflatex (file ./figures/Figure5.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./figures/heatmaps.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
 >]
 \tf@nav=\write6
 \openout6 = `poster.nav'.
@@ -1358,11 +1395,11 @@ pdfs with page group included in a single page
 \tf@snm=\write8
 \openout8 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1375,24 +1412,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22481 strings out of 492995
- 438067 string characters out of 6132704
- 532778 words of memory out of 5000000
- 25468 multiletter control sequences out of 15000+600000
- 64307 words of font info for 62 fonts, out of 8000000 for 9000
+ 22507 strings out of 492995
+ 438697 string characters out of 6132704
+ 559199 words of memory out of 5000000
+ 25489 multiletter control sequences out of 15000+600000
+ 78559 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,71p,809b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,19n,71p,1274b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
-/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 3206246 bytes).
+1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
+/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on poster.pdf (1 page, 3764022 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 4 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

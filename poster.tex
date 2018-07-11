@@ -89,85 +89,60 @@
 \begin{frame}[t]
   \begin{columns}[t]												% the [t] option aligns the column's content at the top
     \begin{column}{\sepwid}\end{column}			% empty spacer column
-    \begin{column}{\onecolwid}
+    \begin{column}{\twocolwid}
 
       \small
       \begin{block}{Introduction}
+
+Understanding functional differences among biomes is critically important to modeling the global carbon cycle and the functioning of the Earth system, including responses to anthropogenic global change (Bonan et al., 2012; van Bodegom et al., 2014; Xia et al., 2015). Our goals in this study are threefold. First, we document the extent of the available data, to highlight persistent data shortfalls and explore their ramifications for characterizing the functional diversity and distinctiveness of biomes. Second, given the available data, we characterize the distribution of functional diversity within biomes across both dominant and subordinate growth forms. These analyses allow us to better quantify the functional distinctiveness of a biome by identifying the most common functional strategies of the most widespread species within it. Third, we ask whether biomes are in fact characterized by functionally distinct collections of species using measures of functional similarity based on multidimensional hypervolumes in functional trait space. 
 
       \end{block}
       \vskip2ex
 
 
-  	\begin{block}{Aim}
-
-	\end{block}
-    \vskip2ex
-
      \begin{block}{Methods}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./figures/Trait_sampling}
+	~
+	\includegraphics[width=0.5\textwidth]{./figures/Figure1.pdf}
+	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
+	\caption{ \footnotesize We used the BIEN$^*$ 2.0 range maps for 88,417 of plant species distributed in North and South America (Goldsmith et al., 2016). We extracted trait information for six functional traits plant species in the New World available on the BIEN 3.0 dataset (retrieved on 7 February 2018) giving a total of 18,192 species-level observations. From these, a subset of 8,820 species with available range map distribution and trait information was then selected for further analyses. To obtain a complete species-level trait dataset, we phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017) and the recently published phylogeny of seed plants by Smith and Brown, 2018 as a baseline. We overlaid the BIEN 2.0 plant species maps on a 100 x 100 km grid map with a Lambert Azimuthal Equal Area projection to obtain a presence/absence matrix of species for each grid cell.  Based on the Olson et al., 2001 biomes classification, we then assigned each matrix grid cell to one of the 11 biomes shown in Figure B. *\scriptsize The BIEN (Botanical Information and Ecology Network) database integrates standardized plant observations stemming from herbarium specimens and vegetation plot inventories }
+	\label{fig:sampling}
+\end{figure}
+
+
+
+
 	\end{block}
-
-\vskip2ex
-
-
-      		\begin{figure}[h]
-      			\centering
-      			\includegraphics[width=\textwidth]{./figures/Trait_sampling}
-      			%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
-      			\caption{}
-      			\label{fig:sampling}
-      		\end{figure}
-
-        \begin{figure}[h]
-        \centering
-        \includegraphics[width=\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
-        \caption{}
-        \label{fig:rate_variation}
-        \end{figure}
-
-
-
-
 
     \end{column}
 
 
     \begin{column}{\sepwid}\end{column}			% empty spacer column
-    \begin{column}{\twocolwid}							% create a two-column-wide column and then we will split it up later
-
-      \vskip2.5ex
-      		 \begin{figure}[h]
-      	\centering
-      	\includegraphics[width=.75\textwidth]{./figures/Figure1.pdf}
-      	\caption{}
-      	\label{}
-	\end{figure}
-
-
-
-%	\begin{figure}[ht!]
-%	\centering
-%	\begin{subfigure}[t]{.5\textwidth}
-%		\centering
-%		\includegraphics[width=\linewidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
-%		\caption{}
-%		\label{}
-%	\end{subfigure}%
-%	~
-%	\begin{subfigure}[t]{.5\textwidth}
-%		\centering
-%		\includegraphics[width=\linewidth]{./figures/Hypervolumes.png}
-%		\caption{}
-%		\label{}
-%	\end{subfigure}
-%	\caption{}
-%	\label{}
-%\end{figure}
-
-
+    \begin{column}{\onecolwid}							% create a two-column-wide column and then we will split it up later
 
 
 		 \begin{block}{Results}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
+	~
+	\includegraphics[width=0.5\textwidth]{./figures/Hypervolumes.png}
+	\caption{}
+	\label{}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{./figures/All_biomes_heatmap_logTraits.pdf}
+	\caption{}
+	\label{}
+\end{figure}
+
+
 
 
 
@@ -185,7 +160,7 @@
 
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.6]{./figures/Figure5.pdf}
+		\includegraphics[width=0.6\textwidth]{./figures/heatmaps.pdf}
 		\caption{}
 		\label{}
 	\end{figure}
