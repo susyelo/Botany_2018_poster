@@ -89,7 +89,7 @@
 \begin{frame}[t]
   \begin{columns}[t]												% the [t] option aligns the column's content at the top
     \begin{column}{\sepwid}\end{column}			% empty spacer column
-    \begin{column}{\twocolwid}
+    \begin{column}{\onecolwid}
 
       \small
       \begin{block}{Introduction}
@@ -102,15 +102,25 @@ Understanding functional differences among biomes is critically important to mod
 
      \begin{block}{Methods}
 
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{./figures/Trait_sampling}
-	~
-	\includegraphics[width=0.5\textwidth]{./figures/Figure1.pdf}
+	\includegraphics[width=0.5\textwidth]{./figures/Methods_figs.pdf}
 	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
-	\caption{ \footnotesize We used the BIEN$^*$ 2.0 range maps for 88,417 of plant species distributed in North and South America (Goldsmith et al., 2016). We extracted trait information for six functional traits plant species in the New World available on the BIEN 3.0 dataset (retrieved on 7 February 2018) giving a total of 18,192 species-level observations. From these, a subset of 8,820 species with available range map distribution and trait information was then selected for further analyses. To obtain a complete species-level trait dataset, we phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017) and the recently published phylogeny of seed plants by Smith and Brown, 2018 as a baseline. We overlaid the BIEN 2.0 plant species maps on a 100 x 100 km grid map with a Lambert Azimuthal Equal Area projection to obtain a presence/absence matrix of species for each grid cell.  Based on the Olson et al., 2001 biomes classification, we then assigned each matrix grid cell to one of the 11 biomes shown in Figure B. *\scriptsize The BIEN (Botanical Information and Ecology Network) database integrates standardized plant observations stemming from herbarium specimens and vegetation plot inventories }
+	\caption{}
+	\label{fig:methods}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{./figures/Trait_sampling}
+	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
+	\caption{}
 	\label{fig:sampling}
 \end{figure}
+
+
 
 
 
@@ -122,6 +132,14 @@ Understanding functional differences among biomes is critically important to mod
 
     \begin{column}{\sepwid}\end{column}			% empty spacer column
     \begin{column}{\onecolwid}							% create a two-column-wide column and then we will split it up later
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{./figures/Figure1.pdf}
+	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
+	\caption{}
+	\label{fig:map}
+\end{figure}
 
 
 		 \begin{block}{Results}
@@ -201,6 +219,12 @@ Understanding functional differences among biomes is critically important to mod
     \vskip2ex
 
   \end{column}
+
+\begin{column}{\sepwid}\end{column}			% empty spacer column
+\begin{column}{\onecolwid}
+\end{column}
+
+
   \begin{column}{\sepwid}\end{column}			% empty spacer column
  \end{columns}
 \end{frame}
