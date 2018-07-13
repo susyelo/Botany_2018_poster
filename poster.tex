@@ -31,15 +31,21 @@
 \newlength{\sepwid}
 \newlength{\onecolwid}
 \newlength{\twocolwid}
-\setlength{\paperwidth}{841mm}
-\setlength{\paperheight}{594mm}
+\setlength{\paperwidth}{1189mm}
+\setlength{\paperheight}{841mm}
 \setlength{\sepwid}{0.024\paperwidth}
 \setlength{\onecolwid}{0.22\paperwidth}
 \setlength{\twocolwid}{0.464\paperwidth}
 \setlength{\topmargin}{-0.5in}
 \usetheme{confposter}
 \usepackage{exscale}
-\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\def\LW{\dimexpr.2\linewidth-.0em}
 
 
 %-----------------------------------------------------------
@@ -98,28 +104,76 @@ Understanding functional differences among biomes is critically important to mod
 
       \end{block}
       \vskip2ex
+      
 
 
      \begin{block}{Methods}
 
+We used the BIEN database to extract range maps and trait measurements of plant species distributed in North and South America. The BIEN (Botanical Information and Ecology Network) database integrates standardized plant observations stemming from herbarium specimens and vegetation plot inventories (Enquist, B.J. et al. 2016, Goldsmith et al., 2016). 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{./figures/Methods_figs.pdf}
-	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
-	\caption{}
-	\label{fig:methods}
-\end{figure}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{./figures/Methods_figs.pdf}
+%	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
+%	\caption{}
+%	\label{fig:methods}
+%\end{figure}
+
+
+\begin{tabular}{cp{0.3\textwidth}cp{0.4\textwidth}}
+
+	\begin{minipage}{.15\textwidth}
+		\includegraphics[width=\linewidth]{./figures/Range_maps_fig/Range_map_figure.pdf}
+	\end{minipage} & 
+
+\begin{itemize}
+		\item BIEN 2.0 (range maps)
+		\item 88,417 species
+	\end{itemize} &
+
+\begin{minipage}{.15\textwidth}
+	\includegraphics[width=\linewidth]{./figures/tree_fig.png}
+\end{minipage} &
+
+\begin{itemize}
+	\item BIEN 3.0 (trait observations)
+	\item 8,820 species
+\end{itemize} \\ 
+
+
+\multicolumn{4}{c}{} \\
+
+\multicolumn{4}{c}{} \\
+
+
+\multicolumn{4}{c}{ \hspace{0.25\textwidth} \begin{minipage}{\textwidth}
+		\includegraphics[width=0.5\linewidth]{./figures/Methods_figs.pdf} 
+\end{minipage} } \\
+\\ 
+\multicolumn{4}{l}{ \hspace{0.15\textwidth} \textbf{7,842 species with complete trait information and range maps}}
+
+\end{tabular}
+
+
+
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{./figures/Trait_sampling}
-	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
-	\caption{}
+	\caption{To estimate the functional trait space for each biome, we require complete trait data. For this reason, we phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017) and the recently published phylogeny of seed plants by (Smith and Brown, 2018) as a baseline. }
 	\label{fig:sampling}
 \end{figure}
 
+
+
+%\begin{figure}
+%	\parbox{\LW}{\includegraphics[width=\linewidth]{./figures/Range_maps_fig/Range_map_figure.pdf}}%
+%	\parbox{\LW}{\footnotesize BIEN 2.0 \\ 88,417 range maps of plant species}\qquad%
+%	\parbox{\LW}{\includegraphics[width=0.7\linewidth]{./figures/tree_fig.png}}%
+%	\parbox{\LW}{\footnotesize  BIEN 3.0 \\  8,820 species with trait observations \\ \tabitem Leaf phosphorus $[]$ (mg/g)}
+%	\caption{}
+%\end{figure}
 
 
 
@@ -131,12 +185,13 @@ Understanding functional differences among biomes is critically important to mod
 
 
     \begin{column}{\sepwid}\end{column}			% empty spacer column
-    \begin{column}{\onecolwid}							% create a two-column-wide column and then we will split it up later
+    \begin{column}{\twocolwid}							% create a two-column-wide column and then we will split it up later
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{./figures/Figure1.pdf}
-	%\includegraphics[scale=2]{./figures/Diversification_shifts_rate2.pdf}
+	\includegraphics[width=0.5\textwidth]{./figures/Figure1.pdf}
+	~
+	\includegraphics[width=0.3\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
 	\caption{}
 	\label{fig:map}
 \end{figure}
@@ -144,18 +199,10 @@ Understanding functional differences among biomes is critically important to mod
 
 		 \begin{block}{Results}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
-	~
-	\includegraphics[width=0.5\textwidth]{./figures/Hypervolumes.png}
-	\caption{}
-	\label{}
-\end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{./figures/All_biomes_heatmap_logTraits.pdf}
+	\includegraphics[width=0.5\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
 	\caption{}
 	\label{}
 \end{figure}
@@ -219,10 +266,6 @@ Understanding functional differences among biomes is critically important to mod
     \vskip2ex
 
   \end{column}
-
-\begin{column}{\sepwid}\end{column}			% empty spacer column
-\begin{column}{\onecolwid}
-\end{column}
 
 
   \begin{column}{\sepwid}\end{column}			% empty spacer column

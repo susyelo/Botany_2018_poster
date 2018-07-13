@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUL 2018 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2018 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,117 +997,148 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> OMX/cmex/m/n on input line 57.
 \big@size=\dimen256
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip77
-\subfigcapskip=\skip78
-\subfigcaptopadj=\dimen257
-\subfigbottomskip=\skip79
-\subfigcapmargin=\dimen258
-\subfiglabelskip=\skip80
-\c@subfigure=\count176
-\c@lofdepth=\count177
-\c@subtable=\count178
-\c@lotdepth=\count179
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip81
-\subfig@bottom=\skip82
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen257
+\captionmargin@=\dimen258
+\captionwidth=\dimen259
+\caption@tempdima=\dimen260
+\caption@indent=\dimen261
+\caption@parindent=\dimen262
+\caption@hangindent=\dimen263
+)
+\c@ContinuedFloat=\count176
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@subfigure=\count177
+\c@subtable=\count178
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen264
+\extrarowheight=\dimen265
+\NC@list=\toks47
+\extratabsurround=\skip77
+\backup@length=\skip78
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen266
+\lightrulewidth=\dimen267
+\cmidrulewidth=\dimen268
+\belowrulesep=\dimen269
+\belowbottomsep=\dimen270
+\aboverulesep=\dimen271
+\abovetopsep=\dimen272
+\cmidrulesep=\dimen273
+\cmidrulekern=\dimen274
+\defaultaddspace=\dimen275
+\@cmidla=\count179
+\@cmidlb=\count180
+\@aboverulesep=\dimen276
+\@belowrulesep=\dimen277
+\@thisruleclass=\count181
+\@lastruleclass=\count182
+\@thisrulewidth=\dimen278
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 78.
+(hyperref)                removing `superscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 78.
+(hyperref)                removing `superscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 78.
+(hyperref)                removing `superscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 78.
+(hyperref)                removing `superscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 78.
+(hyperref)                removing `superscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 84.
 
 (./poster.aux
-
-LaTeX Warning: Label `' multiply defined.
-
 
 LaTeX Warning: Label `' multiply defined.
 
 )
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 88.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1122,8 +1153,8 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * modes: includehead includefoot 
 * h-part:(L,W,R)=(28.45274pt, 2335.97145pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 1690.09352pt, 0.0pt)
-* \paperwidth=2392.87677pt
-* \paperheight=1690.09369pt
+* \paperwidth=3383.03267pt
+* \paperheight=2392.87677pt
 * \textwidth=2335.97145pt
 * \textheight=1661.6408pt
 * \oddsidemargin=-43.81725pt
@@ -1148,17 +1179,17 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
-\scratchdimen=\dimen259
+\scratchcounter=\count183
+\scratchdimen=\dimen279
 \scratchbox=\box60
-\nofMPsegments=\count181
-\nofMParguments=\count182
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count183
-\MPscratchDim=\dimen260
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
-\everyMPtoPDFconversion=\toks48
+\nofMPsegments=\count184
+\nofMParguments=\count185
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen280
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
+\everyMPtoPDFconversion=\toks49
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1178,7 +1209,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1186,11 +1217,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count186
+\c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
 
 (./poster.out) (./poster.out)
 \@outlinefile=\write5
@@ -1221,23 +1252,25 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 88.
+LaTeX Info: Redefining \includegraphics on input line 94.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 88.
+LaTeX Info: Redefining \selectfont on input line 94.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  (./poster.nav)
-LaTeX Font Info:    Calculating math sizes for size <35.96> on input line 88.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 88.
+LaTeX Font Info:    Calculating math sizes for size <35.96> on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 88.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 94.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
@@ -1245,135 +1278,154 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.96> not available
-(Font)              size <24.88> substituted on input line 88.
+(Font)              size <24.88> substituted on input line 94.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <17.98> not available
-(Font)              size <17.28> substituted on input line 88.
+(Font)              size <17.28> substituted on input line 94.
 
-LaTeX Font Info:    Calculating math sizes for size <7.44> on input line 88.
+LaTeX Font Info:    Calculating math sizes for size <7.44> on input line 94.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7.44> on input line 88.
+(Font)              <7.44> on input line 94.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5.20798> on input line 88.
+(Font)              <5.20798> on input line 94.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <3.72> on input line 88.
+(Font)              <3.72> on input line 94.
 <./logos/Kenyon_logo.png, id=13, 250.9375pt x 277.035pt>
 File: ./logos/Kenyon_logo.png Graphic file (type png)
 
 <use ./logos/Kenyon_logo.png>
-Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 88.
+Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 94.
 (pdftex.def)             Requested size: 150.56364pt x 166.22227pt.
 
 <./logos/U_arizona.png, id=15, 2007.5pt x 1878.01625pt>
 File: ./logos/U_arizona.png Graphic file (type png)
 
 <use ./logos/U_arizona.png>
-Package pdftex.def Info: ./logos/U_arizona.png used on input line 88.
+Package pdftex.def Info: ./logos/U_arizona.png used on input line 94.
 (pdftex.def)             Requested size: 180.6672pt x 169.01416pt.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 273.
 
-Overfull \hbox (946.90773pt too wide) detected at line 88
- [] 
- []
-
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 230.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./figures/Methods_figs.pdf, id=18, 567.79045pt x 639.22897pt>
+LaTeX Font Info:    Calculating math sizes for size <18.6> on input line 273.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <18.6> not available
+(Font)              size <17.28> substituted on input line 273.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.01994> not available
+(Font)              size <12> substituted on input line 273.
+
+<./figures/Range_maps_fig/Range_map_figure.pdf, id=18, 505.89pt x 505.89pt>
+File: ./figures/Range_maps_fig/Range_map_figure.pdf Graphic file (type pdf)
+
+<use ./figures/Range_maps_fig/Range_map_figure.pdf>
+Package pdftex.def Info: ./figures/Range_maps_fig/Range_map_figure.pdf used on 
+input line 273.
+(pdftex.def)             Requested size: 111.63615pt x 111.63579pt.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 273
+.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<./figures/tree_fig.png, id=19, 89.6148pt x 120.45pt>
+File: ./figures/tree_fig.png Graphic file (type png)
+
+<use ./figures/tree_fig.png>
+Package pdftex.def Info: ./figures/tree_fig.png used on input line 273.
+(pdftex.def)             Requested size: 111.63615pt x 150.05669pt.
+
+<./figures/Methods_figs.pdf, id=20, 430.28445pt x 114.31677pt>
 File: ./figures/Methods_figs.pdf Graphic file (type pdf)
 
 <use ./figures/Methods_figs.pdf>
-Package pdftex.def Info: ./figures/Methods_figs.pdf used on input line 230.
-(pdftex.def)             Requested size: 263.2179pt x 296.33128pt.
+Package pdftex.def Info: ./figures/Methods_figs.pdf used on input line 273.
+(pdftex.def)             Requested size: 372.13565pt x 98.86693pt.
 
-<./figures/Trait_sampling.pdf, id=19, 1299.71289pt x 826.40164pt>
+Overfull \hbox (203.68297pt too wide) in paragraph at lines 273--273
+[][] 
+ []
+
+<./figures/Trait_sampling.pdf, id=21, 1299.71289pt x 826.40164pt>
 File: ./figures/Trait_sampling.pdf Graphic file (type pdf)
 
 <use ./figures/Trait_sampling.pdf>
-Package pdftex.def Info: ./figures/Trait_sampling.pdf used on input line 230.
-(pdftex.def)             Requested size: 526.4358pt x 334.72867pt.
+Package pdftex.def Info: ./figures/Trait_sampling.pdf used on input line 273.
+(pdftex.def)             Requested size: 744.27132pt x 473.23534pt.
 
-<./figures/Figure1.pdf, id=20, 842.3295pt x 495.83124pt>
+<./figures/Figure1.pdf, id=22, 842.3295pt x 495.83124pt>
 File: ./figures/Figure1.pdf Graphic file (type pdf)
 
 <use ./figures/Figure1.pdf>
-Package pdftex.def Info: ./figures/Figure1.pdf used on input line 230.
-(pdftex.def)             Requested size: 526.4358pt x 309.88618pt.
+Package pdftex.def Info: ./figures/Figure1.pdf used on input line 273.
+(pdftex.def)             Requested size: 784.87122pt x 462.01103pt.
 
-<./figures/Hypervolume_sp_sample_gaussian20perc.pdf, id=21, 578.16pt x 505.89pt
+<./figures/Hypervolume_sp_sample_gaussian20perc.pdf, id=23, 578.16pt x 505.89pt
 >
 File: ./figures/Hypervolume_sp_sample_gaussian20perc.pdf Graphic file (type pdf
 )
  <use ./figures/Hypervolume_sp_sample_gaussian20perc.pdf>
 Package pdftex.def Info: ./figures/Hypervolume_sp_sample_gaussian20perc.pdf use
-d on input line 230.
-(pdftex.def)             Requested size: 263.2179pt x 230.31152pt.
+d on input line 273.
+(pdftex.def)             Requested size: 470.9275pt x 412.06126pt.
 
-<./figures/Hypervolumes.png, id=22, 489.5088pt x 279.9258pt>
-File: ./figures/Hypervolumes.png Graphic file (type png)
-
-<use ./figures/Hypervolumes.png>
-Package pdftex.def Info: ./figures/Hypervolumes.png used on input line 230.
-(pdftex.def)             Requested size: 263.2179pt x 150.52124pt.
-
-Overfull \hbox (12.2389pt too wide) in paragraph at lines 230--230
- []  [] 
- []
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 230.
-
-<./figures/All_biomes_heatmap_logTraits.pdf, id=23, 505.89pt x 505.89pt>
+<./figures/All_biomes_heatmap_logTraits.pdf, id=24, 505.89pt x 505.89pt>
 File: ./figures/All_biomes_heatmap_logTraits.pdf Graphic file (type pdf)
 
 <use ./figures/All_biomes_heatmap_logTraits.pdf>
 Package pdftex.def Info: ./figures/All_biomes_heatmap_logTraits.pdf used on inp
-ut line 230.
-(pdftex.def)             Requested size: 354.12057pt x 354.12057pt.
+ut line 273.
+(pdftex.def)             Requested size: 784.87122pt x 784.88559pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 230.
+Package hyperref Warning: Ignoring empty anchor on input line 273.
 
-<./figures/heatmaps.pdf, id=24, 713.65529pt x 1453.20345pt>
+<./figures/heatmaps.pdf, id=25, 713.65529pt x 1453.20345pt>
 File: ./figures/heatmaps.pdf Graphic file (type pdf)
 
 <use ./figures/heatmaps.pdf>
-Package pdftex.def Info: ./figures/heatmaps.pdf used on input line 230.
-(pdftex.def)             Requested size: 315.86469pt x 643.20328pt.
+Package pdftex.def Info: ./figures/heatmaps.pdf used on input line 273.
+(pdftex.def)             Requested size: 446.56732pt x 909.35864pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 230.
+Package hyperref Warning: Ignoring empty anchor on input line 273.
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 230.
+LaTeX Warning: Empty `thebibliography' environment on input line 273.
 
 
-Overfull \vbox (57.11438pt too high) detected at line 230
+Overfull \hbox (990.20732pt too wide) detected at line 273
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
+][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
 File: ./logos/Kenyon_logo.png Graphic file (type png)
 <use ./logos/Kenyon_logo.png>
-Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 230.
+Package pdftex.def Info: ./logos/Kenyon_logo.png used on input line 273.
 (pdftex.def)             Requested size: 150.56364pt x 166.22227pt.
 File: ./logos/U_arizona.png Graphic file (type png)
  <use ./logos/U_arizona.png>
-Package pdftex.def Info: ./logos/U_arizona.png used on input line 230.
+Package pdftex.def Info: ./logos/U_arizona.png used on input line 273.
 (pdftex.def)             Requested size: 180.6672pt x 169.01416pt.
-
-Overfull \hbox (946.90773pt too wide) has occurred while \output is active
- [] 
- []
-
 
 Overfull \hbox (36.135pt too wide) has occurred while \output is active
 [] []
  []
 
+
+Overfull \hbox (990.15573pt too wide) has occurred while \output is active
+[]
+ []
+
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logos/Kenyon_logo.png> <./logos/U_arizona.png> <./figures/Methods_figs.pdf>
- <./figures/Trait_sampling.pdf
+ <./logos/Kenyon_logo.png> <./logos/U_arizona.png> <./figures/Range_maps_fig/Ra
+nge_map_figure.pdf> <./figures/tree_fig.png> <./figures/Methods_figs.pdf> <./fi
+gures/Trait_sampling.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Trait_sampling.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -1381,8 +1433,8 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./figures/Figure1.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
-> <./figures/Hypervolume_sp_sample_gaussian20perc.pdf> <./figures/Hypervolumes.
-png> <./figures/All_biomes_heatmap_logTraits.pdf> <./figures/heatmaps.pdf
+> <./figures/Hypervolume_sp_sample_gaussian20perc.pdf> <./figures/All_biomes_he
+atmap_logTraits.pdf> <./figures/heatmaps.pdf
 
 pdfTeX warning: pdflatex (file ./figures/heatmaps.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
@@ -1396,11 +1448,11 @@ pdfTeX warning: pdflatex (file ./figures/heatmaps.pdf): PDF inclusion: multiple
 \tf@snm=\write8
 \openout8 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1413,24 +1465,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22496 strings out of 492995
- 438570 string characters out of 6132704
- 545443 words of memory out of 5000000
- 25479 multiletter control sequences out of 15000+600000
- 64307 words of font info for 62 fonts, out of 8000000 for 9000
+ 23620 strings out of 492995
+ 459576 string characters out of 6132704
+ 567199 words of memory out of 5000000
+ 26584 multiletter control sequences out of 15000+600000
+ 80215 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,71p,1065b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
-/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 4355150 bytes).
+ 65i,19n,100p,1065b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/
+texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist
+/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
+mr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on poster.pdf (1 page, 4202973 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
- 6 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
