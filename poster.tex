@@ -102,12 +102,11 @@
      
       \begin{alertblock}{Introduction}
 
-Understanding functional differences among biomes is critically important to modeling the global carbon cycle and the functioning of the Earth system, including responses to anthropogenic global change (Bonan et al., 2012; van Bodegom et al., 2014; Xia et al., 2015). Our goals in this study are threefold. First, we document the extent of the available data, to highlight persistent data shortfalls and explore their ramifications for characterizing the functional diversity and distinctiveness of biomes. Second, given the available data, we characterize the distribution of functional diversity within biomes across both dominant and subordinate growth forms. These analyses allow us to better quantify the functional distinctiveness of a biome by identifying the most common functional strategies of the most widespread species within it. Third, we ask whether biomes are in fact characterized by functionally distinct collections of species using measures of functional similarity based on multidimensional hypervolumes in functional trait space. 
+Understanding functional differences among biomes is critically important to modeling the global carbon cycle and the functioning of the Earth system, including responses to anthropogenic global change (Bonan et al., 2012; van Bodegom et al., 2014; Xia et al., 2015). Our goals in this study are (1) to document the extent of the available data that characterize the functional diversity and distinctiveness of biomes, to highlight persistent data shortfalls. (2) Given the available data, we quantify the functional distinctiveness of a biome by identifying the most common functional strategies of the most widespread species within it. (3) we explore whether biomes are in fact characterized by functionally distinct collections of species using measures of functional similarity based on multidimensional hypervolumes in functional trait space. 
 
       \end{alertblock}
       \vskip2ex
       
-
 
      \begin{alertblock}{Methods}
      
@@ -163,18 +162,14 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
  To estimate the functional trait space for each biome, we require complete trait data. For this reason, we phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017) and the recently published phylogeny of seed plants by (Smith and Brown, 2018) as a baseline (see Fig. \ref{fig:sampling}).
 
-
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{./figures/Trait_sampling}
+	\includegraphics[width=1.02\textwidth]{./figures/Trait_sampling}
 	\caption{Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018}
 	\label{fig:sampling}
 \end{figure}
 
-We measured the relative functional diversity of biomes by calculating trait hypervolumes from species pools within biomes cells. The hypervolumes for each grid cell were estimated using the extracted six functional traits and the R package ``hypervolume'' (Blonder et al., 2014, 2018), using the Gaussian KDE method with the default Silverman bandwidth estimator (see Fig. \ref{fig:map}B). 
-
-Given the considerable overlap of species composition among biomes (see Fig. \ref{fig:map}A), we explore how widely species are distributed within biomes, and whether a species is more or less functionally similar to the rest of the community. Using the species geographical distribution and functional trait information, we estimate the functional distinctiveness and widespreadness of each species in each biome, following the conceptual framework of functional rarity by (Violle et al. 2017).
+We measured the relative functional diversity of biomes by calculating trait hypervolumes from species pools within biomes cells. The hypervolumes for each grid cell, and collections of cells per biome,  were estimated using the extracted six functional traits and the R package ``hypervolume'' (Blonder et al., 2014, 2018), using the Gaussian KDE method with the default Silverman bandwidth estimator (see Fig. \ref{fig:map}B). Given the considerable overlap of species composition among biomes (see Fig. \ref{fig:map}A), we explore how widely species are distributed within biomes, and whether a species is more or less functionally similar to the rest of the community. Using the species geographical distribution and functional trait information, we estimate the functional distinctiveness and widespreadness of each species in each biome, following the conceptual framework of functional rarity by (Violle et al. 2017).
 
 	\end{alertblock}
 
@@ -186,9 +181,9 @@ Given the considerable overlap of species composition among biomes (see Fig. \re
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{./figures/Figure1.pdf}
+	\includegraphics[width=0.75\textwidth]{./figures/Figure1.pdf}
 	~
-	\includegraphics[width=0.3\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
+	\includegraphics[width=0.25\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
 	\caption{(A) Overlap of plant species among biomes of the New World. Percentage values express the fraction of species that have the greatest proportion of their geographic range in each biome. (B) Distribution of trait hypervolumes of 20\% of randomly selected 100X100 km cells in each biome. Hypervolumes are reported in units of standard deviations to the power of the number of traits used.}
 	\label{fig:map}
 \end{figure}
@@ -203,27 +198,26 @@ Given the considerable overlap of species composition among biomes (see Fig. \re
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.35\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
+	\includegraphics[width=0.39\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
 	\caption{Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell. }
 	\label{fig:distinct_common}
 \end{figure}
 
 
-
-   Despite substantial hypervolume overlap among all the biomes (Supplemental Figure 2), tropical, temperate, and cold biomes all appear to occupy distinguishable regions of functional space (Figure 5B, C). The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass (Supplemental Figure 2), rather than by leaf economics trait, as observed in more local, plot-based analyses (Douma et al., 2012).   		
+   Despite substantial hypervolume overlap among all the biomes (Fig \ref{fig:map}B), tropical, temperate, and cold biomes all appear to occupy distinguishable regions of functional space (Fig. \ref{fig:hypervolumes}). The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass (Fig. \ref{fig:hypervolumes}), rather than by leaf economics trait, as observed in more local, plot-based analyses (Douma et al., 2012).   		
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.25\textwidth]{./figures/Hypervolumes}
+	\includegraphics[width=0.245\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}
 	~
-	\includegraphics[width=0.25\textwidth]{./figures/Hypervolumes}
-	\caption{caption}
-	\label{fig:growth_forms}
+	\includegraphics[width=0.245\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
+	\caption{Trait hypervolumes for tropical biomes using (A) the whole pool of species, and (B) using species that are functionally
+redundant and widespread in each biome. Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented
+in this study.}
+	\label{fig:hypervolumes}
 \end{figure}
 
-
-
-Pairwise comparisons of species composition among biomes reveal three main clusters representing the tropical, temperate and polar climatic zones (Figure 5A), in agreement with the vast number of shared species within these regions as shown in Figure 1. Pairwise comparisons of trait hypervolumes among biomes show a less clear clustering of climatic zones. The pairwise comparison of trait hypervolumes among biomes using only those species considered as functionally redundant and widespread shows less overlap in trait spaces among and within climatic zones (Figure 5C). However, even though xeric woodlands are now clustered with the rest of tropical biomes, these habitats along with tropical grassland exhibit great overlap in functional space with temperate biomes such as Mediterranean woodlands and temperate grasslands. 
+Pairwise comparisons of species composition among biomes reveal three main clusters representing the tropical, temperate and polar climatic zones (Fig. \ref{fig:heatmaps}A), in agreement with the vast number of shared species within these regions as shown in Fig. \ref{fig:map}A. Pairwise comparisons of trait hypervolumes among biomes show a less clear clustering of climatic zones (Fig. \ref{fig:heatmaps}B). The pairwise comparison of trait hypervolumes among biomes using only those species considered as functionally redundant and widespread shows less overlap in trait spaces among and within climatic zones (Fig. \ref{fig:heatmaps}B). However, even though xeric woodlands are now clustered with the rest of tropical biomes, these habitats along with tropical grassland exhibit great overlap in functional space with temperate biomes such as Mediterranean woodlands and temperate grasslands. 
 
 \end{multicols}
 \end{alertblock}
@@ -255,9 +249,6 @@ Despite extensive taxonomic and functional overlap among biomes, they do cluster
 	\end{figure}
 
 
-
-
-
       		\begin{alertblock}{Conclusions}
       		\begin{itemize}
       		\item Despite progress in the compilation and synthesis of primary biodiversity data, significant knowledge shortfalls persist that may limit our ability to quantify the functional biodiversity of biomes on continental to global scales.
@@ -272,17 +263,35 @@ Despite extensive taxonomic and functional overlap among biomes, they do cluster
 
     \vskip2ex
 
-          		\begin{block}{References}
+\begin{block}{References}
 
-		        \tiny{\begin{thebibliography}{99}
+\scriptsize
 
+	\begin{itemize}
 
+	\item Blonder, B., Lamanna, C., Violle, C., and Enquist, B. J. Glob. Ecol. Biogeogr. \textbf{23}, 595-609 (2014).
 
-		        \end{thebibliography}}
+	\item Blonder, B., Morrow, C. B., Maitner, B., Harris, D. J., Lamanna, C., Violle, C., et al. Methods Ecol. Evol. \textbf{9}, 305-319 (2018). 
+	
+	\item Diaz, S., Kattge, J., Cornelissen, J. H. C., Wright, I. J., Lavorel, S., Dray, S., et al. Nature \textbf{529}, 167 (2016).
 
-			     \vspace{0.75in}
+	\item Enquist, B. J., Condit, R., Peet, R. K., Schildhauer, M., and Thiers, B. M. PeerJ Preprints No. e2615v1 (2016).
+	
+	\item Forrestel, E. J., Donoghue, M. J., Edwards, E. J., Jetz, W., du Toit, J. C. O., and Smith, M. D. Proc Natl Acad Sci \textbf{114}, 705–710 (2017). 
 
-		 		\end{block}
+	\item Goldsmith, G. R., Morueta-Holme, N., Sandel, B., Fitz, E. D., Fitz, S. D., Boyle, B., et al. Methods Ecol. Evol. \textbf{7}, 960-965 (2016). 
+
+	\item Goolsby, E. W., Bruggeman, J., and An\'e, C. Methods Ecol. Evol. \textbf{8}, 22-27 (2017).
+
+	\item Smith, S. A., and Brown, J. W. Am. J. Bot. \textbf{105}, 302-314 (2018). 
+	
+	\item Wright, I. J., Reich, P. B., Westoby, M., Ackerly, D. D., Baruch, Z., Bongers, F., et al. Nature \textbf{428}, 821 (2004). 
+		        
+	\end{itemize}
+
+\vspace{0.75in}
+
+\end{block}
 
 
       		\begin{block}{Acknowledgments}
