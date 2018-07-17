@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JUL 2018 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JUL 2018 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,12 +1350,12 @@ Package pdftex.def Info: ./logos/bien_logo_notext-1.png used on input line 316.
 
 (pdftex.def)             Requested size: 223.28366pt x 87.77214pt.
 
-<./figures/Methods_figs.pdf, id=20, 430.28445pt x 114.31677pt>
-File: ./figures/Methods_figs.pdf Graphic file (type pdf)
+<./figures/Methods_figs.png, id=20, 430.408pt x 114.026pt>
+File: ./figures/Methods_figs.png Graphic file (type png)
 
-<use ./figures/Methods_figs.pdf>
-Package pdftex.def Info: ./figures/Methods_figs.pdf used on input line 316.
-(pdftex.def)             Requested size: 312.59258pt x 83.04759pt.
+<use ./figures/Methods_figs.png>
+Package pdftex.def Info: ./figures/Methods_figs.png used on input line 316.
+(pdftex.def)             Requested size: 312.59258pt x 82.81374pt.
 LaTeX Font Info:    Try loading font information for TS1+lmss on input line 316
 .
 
@@ -1424,9 +1424,9 @@ File: ./figures/heatmaps.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/heatmaps.pdf used on input line 316.
 (pdftex.def)             Requested size: 446.56732pt x 909.35864pt.
 
-Overfull \hbox (1002.4106pt too wide) detected at line 316
-[][][] [][][][][][][][][] [][][][][][][] \T1/lmss/m/n/21.43 s[][] [][][][][][][
-][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
+Overfull \hbox (990.20732pt too wide) detected at line 316
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
+][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
 File: ./logos/Kenyon_logo.png Graphic file (type png)
@@ -1460,12 +1460,8 @@ Overfull \hbox (990.15573pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logos/Kenyon_logo.png> <./logos/U_arizona.png> <./logos/NSF_4.png> <./logos
-/bien_logo_notext-1.png> <./figures/Methods_figs.pdf> <./figures/Trait_sampling
-.pdf
-
-pdfTeX warning: pdflatex (file ./figures/Trait_sampling.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
-> <./figures/Figure1.pdf
+/bien_logo_notext-1.png> <./figures/Methods_figs.png> <./figures/Trait_sampling
+.pdf> <./figures/Figure1.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Figure1.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
@@ -1497,14 +1493,11 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 19.54999pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  22625 strings out of 492995
  441284 string characters out of 6132704
- 600559 words of memory out of 5000000
+ 600760 words of memory out of 5000000
  25598 multiletter control sequences out of 15000+600000
  79789 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1519,10 +1512,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on poster.pdf (1 page, 19671950 bytes).
+Output written on poster.pdf (1 page, 19267981 bytes).
 PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 553 compressed objects within 6 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
  9 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
