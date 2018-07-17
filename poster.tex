@@ -93,7 +93,7 @@
 %-----------------------------------------------------------
 
 \begin{document}
- \small
+	\small
 \begin{frame}[t]
   \begin{columns}[t]												% the [t] option aligns the column's content at the top
     \begin{column}{\sepwid}\end{column}			% empty spacer column
@@ -101,7 +101,6 @@
 
      
       \begin{block}{Introduction}
-
 Understanding functional differences among biomes is critically important to modeling the global carbon cycle and the functioning of the Earth system, including responses to anthropogenic global change. Our goals in this study are (1) to document the extent of the available data that characterize the functional diversity and distinctiveness of biomes, to highlight persistent data shortfalls. (2) Given the available data, we quantify the functional distinctiveness of a biome by identifying the most common functional strategies of the most widespread species within it. (3) we explore whether biomes are in fact characterized by functionally distinct collections of species using measures of functional similarity based on multidimensional hypervolumes in functional trait space. 
 
       \end{block}
@@ -160,44 +159,34 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{./figures/Methods_figs.pdf}
-	\caption{\textbf{7,842 species with complete trait information and range maps}}
+	\includegraphics[width=0.3\textwidth]{./logos/bien_logo_notext-1.png}
+	~
+	\includegraphics[width=0.42\textwidth]{./figures/Methods_figs.pdf}
+	\caption{\footnotesize \textbf{7,842 species with complete trait information and range maps}}
 	\label{fig:methods}
 \end{figure}
 
 
-\hfill
+\begin{itemize}
+	\item \textbf{Trait hypervolumes}: R package ``hypervolume'' (Blonder et al., 2014, 2018)
+	\item \textbf{Functional distinctiveness}:  R package ``funrar''  (Greni\'e et al., 2017, Violle et al. 2017)
+\end{itemize}
+	\end{block}
+
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1.05\textwidth]{./figures/Trait_sampling}
-	\caption{Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018, which was used to phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017)}
+	\caption{ \footnotesize Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018, which was used to phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017)}
 	\label{fig:sampling}
 \end{figure}
 
-
-\textbf{Trait hypervolumes}
-\begin{itemize}
-\item Estimated per grid cell and collections of cells per biome
-\item R package ``hypervolume'' (Blonder et al., 2014, 2018)
-\end{itemize}
-
-\textbf{Functional distinctiveness}
-
-\begin{itemize}
-\item Following the conceptual framework of functional rarity by Violle et al. 2017.
-\item Functional distinctiveness: average functional distance of a species to the N other species within the biome species pool.
-\item Geographic widespreadness: measured as the number of sites occupied by the species within a community over the total number of sites. 
-\end{itemize}
-
-
-
-	\end{block}
 	
 	
-      		\begin{block}{Acknowledgments}
-\scriptsize This study was conducted as a part of the BIEN Working Group (Principal Investigators: Brian J. Enquist, Brad Boyle, Richard Condit, Steven Dolins, Robert K. Peet, and Barbara M. Thiers) supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/).
-      		\end{block}
+\begin{block}{Acknowledgments}
+\scriptsize This study was conducted as a part of the BIEN Working Group supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We also thank Brad Boyle, Nathan Kraft, Brian Maitner, Brian McGill, Brody Sandel, Naia Morueta-Holme, Stephen Smith, Jens-Christian Svenning, Susan K. Wiser, Robert K Peet for their contribution in developing the BIEN database. We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/). 
+\end{block}
 
 
     \end{column}
@@ -211,7 +200,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 	\includegraphics[width=0.75\textwidth]{./figures/Figure1.pdf}
 	~
 	\includegraphics[width=0.25\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
-	\caption{(A) Overlap of plant species among biomes of the New World. Percentage values express the fraction of species that have the greatest proportion of their geographic range in each biome. (B) Distribution of trait hypervolumes of 20\% of randomly selected 100X100 km cells in each biome. Hypervolumes are reported in units of standard deviations to the power of the number of traits used.  Despite substantial hypervolume overlap among all the biomes, tropical, temperate, and cold biomes all appear to occupy distinguishable regions of functional space.}
+	\caption{ \footnotesize (Left) Overlap of plant species among biomes of the New World. Percentage values express the fraction of species that have the greatest proportion of their geographic range in each biome. (Right) Distribution of trait hypervolumes of 20\% of randomly selected 100X100 km cells in each biome. Hypervolumes are reported in units of standard deviations to the power of the number of traits used}
 	\label{fig:map}
 \end{figure}
 
@@ -219,14 +208,14 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{block}{Results}
 
-
+\end{block}
 		 
 \begin{multicols}{2}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.39\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
-	\caption{Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell.}
+	\includegraphics[width=0.467\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
+	\caption{ \footnotesize Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell.}
 	\label{fig:distinct_common}
 \end{figure}
 
@@ -234,21 +223,15 @@ We used the BIEN database to extract range maps and trait measurements of plant 
  
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.35\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}
-	\caption{Trait hypervolumes for tropical biomes using the whole pool of species. Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented in this study.}
-	\label{fig:hypervolumes1}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.35\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
-	\caption{Trait hypervolumes for tropical biomes using species that are functionally redundant and widespread in each biome. The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass, rather than by leaf economics trait}
+	\includegraphics[width=0.4\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}\\
+	\includegraphics[width=0.4\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
+	\caption{ \footnotesize Trait hypervolumes for tropical biomes using the whole pool of species (top) and using species that are functionally redundant and widespread in each biome (bottom).  Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented in this study. The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass, rather than by leaf economics trait}
 	\label{fig:hypervolumes2}
 \end{figure}
 
 
 \end{multicols}
-\end{block}
+
 
 
 %
@@ -272,7 +255,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.6\textwidth]{./figures/heatmaps.pdf}
-		\caption{(A) Pairwise dissimilarity in species composition among biomes. (B) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using the total number of species. (C) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using only those species that are considered as functionally redundant and widespread. The lighter the cell the greater the dissimilarity.}
+		\caption{\footnotesize (A) Pairwise dissimilarity in species composition among biomes. (B) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using the total number of species. (C) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using only those species that are considered as functionally redundant and widespread. The lighter the cell the greater the dissimilarity.}
 		\label{fig:heatmaps}
 	\end{figure}
 
@@ -281,8 +264,8 @@ We used the BIEN database to extract range maps and trait measurements of plant 
       		\begin{itemize}
       		\item Despite progress in the compilation and synthesis of primary biodiversity data, significant knowledge shortfalls persist that may limit our ability to quantify the functional biodiversity of biomes on continental to global scales.
       		
-      		\item when only the widespread and functionally redundant species are considered, biomes can be more readily distinguished functionally, and patterns of dissimilarity between biomes appear to reflect a correspondence between climate and plant functional niche space.
-      		\item Our results suggest that while the study of the functional diversity of biomes is still in its formative stages, further development of the field will yield insights linking evolution, biogeography, community assembly, and ecosystem function.
+      		\item Biomes can be more distinguished functionally, when only the widespread and functionally redundant species are considered, and patterns of dissimilarity between biomes appear to reflect a correspondence between climate and plant functional niche space.
+      		\item While the study of the functional diversity of biomes is still in its formative stages, further development of the field will yield insights linking evolution, biogeography, community assembly, and ecosystem function.
       		\end{itemize}
 
       		\end{block}
@@ -301,11 +284,9 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 	\item Blonder, B., Morrow, C. B., Maitner, B., Harris, D. J., Lamanna, C., Violle, C., et al. Methods Ecol. Evol. \textbf{9}, 305-319 (2018). 
 	
-	\item Diaz, S., Kattge, J., Cornelissen, J. H. C., Wright, I. J., Lavorel, S., Dray, S., et al. Nature \textbf{529}, 167 (2016).
-
 	\item Enquist, B. J., Condit, R., Peet, R. K., Schildhauer, M., and Thiers, B. M. PeerJ Preprints No. e2615v1 (2016).
 	
-	\item Forrestel, E. J., Donoghue, M. J., Edwards, E. J., Jetz, W., du Toit, J. C. O., and Smith, M. D. Proc Natl Acad Sci \textbf{114}, 705–710 (2017). 
+	\item Greni\'e, Matthias, et al. Diversity and Distributions \textbf{23.12}, 1365-1371 (2017).
 
 	\item Goldsmith, G. R., Morueta-Holme, N., Sandel, B., Fitz, E. D., Fitz, S. D., Boyle, B., et al. Methods Ecol. Evol. \textbf{7}, 960-965 (2016). 
 
@@ -313,8 +294,9 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 	\item Smith, S. A., and Brown, J. W. Am. J. Bot. \textbf{105}, 302-314 (2018). 
 	
-	\item Wright, I. J., Reich, P. B., Westoby, M., Ackerly, D. D., Baruch, Z., Bongers, F., et al. Nature \textbf{428}, 821 (2004). 
-		        
+	\item Violle, C., Thuiller, W., Mouquet, N., Munoz, F., Kraft, N. J. B., Cadotte, M. W., et al. Trends Ecol. Evol. \textbf{32}, 356-367 (2017)
+	
+	        
 	\end{itemize}
 
 \vspace{0.75in}
