@@ -124,54 +124,81 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \hfill
 
-\begin{tabular}{cp{0.3\textwidth}cp{0.4\textwidth}}
+%%\begin{tabular}{cp{0.3\textwidth}cp{0.4\textwidth}}
+%
+%	\begin{minipage}{.15\textwidth}
+%		\includegraphics[width=\linewidth]{./figures/Range_maps_fig/Range_map_figure.pdf}
+%	\end{minipage} & 
+%
+%\begin{itemize}
+%		\item BIEN 2.0 (range maps)
+%		\item 88,417 species
+%	\end{itemize} &
+%
+%\begin{minipage}{.15\textwidth}
+%	\includegraphics[width=\linewidth]{./figures/tree_fig.png}
+%\end{minipage} &
+%
+%\begin{itemize}
+%	\item BIEN 3.0 (trait observations)
+%	\item 8,820 species
+%\end{itemize} \\ 
+%
+%
+%\multicolumn{4}{c}{} \\
+%
+%\multicolumn{4}{c}{} \\
+%
+%
+%\multicolumn{4}{c}{ \hspace{0.25\textwidth} \begin{minipage}{\textwidth}
+%		\includegraphics[width=0.5\linewidth]{./figures/Methods_figs.pdf} 
+%\end{minipage} } \\
+%\\ 
+%\multicolumn{4}{l}{ \hspace{0.09\textwidth} \textbf{7,842 species with complete trait information and range maps}}
+%
+%\end{tabular}
 
-	\begin{minipage}{.15\textwidth}
-		\includegraphics[width=\linewidth]{./figures/Range_maps_fig/Range_map_figure.pdf}
-	\end{minipage} & 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./figures/Methods_figs.pdf}
+	\caption{\textbf{7,842 species with complete trait information and range maps}}
+	\label{fig:methods}
+\end{figure}
 
-\begin{itemize}
-		\item BIEN 2.0 (range maps)
-		\item 88,417 species
-	\end{itemize} &
-
-\begin{minipage}{.15\textwidth}
-	\includegraphics[width=\linewidth]{./figures/tree_fig.png}
-\end{minipage} &
-
-\begin{itemize}
-	\item BIEN 3.0 (trait observations)
-	\item 8,820 species
-\end{itemize} \\ 
-
-
-\multicolumn{4}{c}{} \\
-
-\multicolumn{4}{c}{} \\
-
-
-\multicolumn{4}{c}{ \hspace{0.25\textwidth} \begin{minipage}{\textwidth}
-		\includegraphics[width=0.5\linewidth]{./figures/Methods_figs.pdf} 
-\end{minipage} } \\
-\\ 
-\multicolumn{4}{l}{ \hspace{0.09\textwidth} \textbf{7,842 species with complete trait information and range maps}}
-
-\end{tabular}
 
 \hfill
-
- To estimate the functional trait space for each biome, we require complete trait data. For this reason, we phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017) and the recently published phylogeny of seed plants by (Smith and Brown, 2018) as a baseline (see Fig. \ref{fig:sampling}).
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1.05\textwidth]{./figures/Trait_sampling}
-	\caption{Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018}
+	\caption{Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018, which was used to phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017)}
 	\label{fig:sampling}
 \end{figure}
 
-We measured the relative functional diversity of biomes by calculating trait hypervolumes from species pools within biomes cells. The hypervolumes for each grid cell, and collections of cells per biome,  were estimated using the extracted six functional traits and the R package ``hypervolume'' (Blonder et al., 2014, 2018), using the Gaussian KDE method with the default Silverman bandwidth estimator (see Fig. \ref{fig:map}B). Given the considerable overlap of species composition among biomes (see Fig. \ref{fig:map}A), we explore how widely species are distributed within biomes, and whether a species is more or less functionally similar to the rest of the community. Using the species geographical distribution and functional trait information, we estimate the functional distinctiveness and widespreadness of each species in each biome, following the conceptual framework of functional rarity by (Violle et al. 2017).
+
+\textbf{Trait hypervolumes}
+\begin{itemize}
+\item Estimated per grid cell and collections of cells per biome
+\item R package ``hypervolume'' (Blonder et al., 2014, 2018)
+\end{itemize}
+
+\textbf{Functional distinctiveness}
+
+\begin{itemize}
+\item Following the conceptual framework of functional rarity by Violle et al. 2017.
+\item Functional distinctiveness: average functional distance of a species to the N other species within the biome species pool.
+\item Geographic widespreadness: measured as the number of sites occupied by the species within a community over the total number of sites. 
+\end{itemize}
+
+
 
 	\end{block}
+	
+	
+      		\begin{block}{Acknowledgments}
+\scriptsize This study was conducted as a part of the BIEN Working Group (Principal Investigators: Brian J. Enquist, Brad Boyle, Richard Condit, Steven Dolins, Robert K. Peet, and Barbara M. Thiers) supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/).
+      		\end{block}
+
 
     \end{column}
 
@@ -184,7 +211,7 @@ We measured the relative functional diversity of biomes by calculating trait hyp
 	\includegraphics[width=0.75\textwidth]{./figures/Figure1.pdf}
 	~
 	\includegraphics[width=0.25\textwidth]{./figures/Hypervolume_sp_sample_gaussian20perc.pdf}
-	\caption{(A) Overlap of plant species among biomes of the New World. Percentage values express the fraction of species that have the greatest proportion of their geographic range in each biome. (B) Distribution of trait hypervolumes of 20\% of randomly selected 100X100 km cells in each biome. Hypervolumes are reported in units of standard deviations to the power of the number of traits used.}
+	\caption{(A) Overlap of plant species among biomes of the New World. Percentage values express the fraction of species that have the greatest proportion of their geographic range in each biome. (B) Distribution of trait hypervolumes of 20\% of randomly selected 100X100 km cells in each biome. Hypervolumes are reported in units of standard deviations to the power of the number of traits used.  Despite substantial hypervolume overlap among all the biomes, tropical, temperate, and cold biomes all appear to occupy distinguishable regions of functional space.}
 	\label{fig:map}
 \end{figure}
 
@@ -199,38 +226,39 @@ We measured the relative functional diversity of biomes by calculating trait hyp
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.39\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
-	\caption{Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell. }
+	\caption{Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell.}
 	\label{fig:distinct_common}
 \end{figure}
 
 
-   Despite substantial hypervolume overlap among all the biomes (Fig \ref{fig:map}B), tropical, temperate, and cold biomes all appear to occupy distinguishable regions of functional space (Fig. \ref{fig:hypervolumes}). The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass (Fig. \ref{fig:hypervolumes}), rather than by leaf economics trait, as observed in more local, plot-based analyses (Douma et al., 2012).   		
+ 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.35\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}
+	\caption{Trait hypervolumes for tropical biomes using the whole pool of species. Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented in this study.}
+	\label{fig:hypervolumes1}
+\end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.245\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}
-	~
-	\includegraphics[width=0.245\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
-	\caption{Trait hypervolumes for tropical biomes using (A) the whole pool of species, and (B) using species that are functionally
-redundant and widespread in each biome. Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented
-in this study.}
-	\label{fig:hypervolumes}
+	\includegraphics[width=0.35\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
+	\caption{Trait hypervolumes for tropical biomes using species that are functionally redundant and widespread in each biome. The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass, rather than by leaf economics trait}
+	\label{fig:hypervolumes2}
 \end{figure}
 
-Pairwise comparisons of species composition among biomes reveal three main clusters representing the tropical, temperate and polar climatic zones (Fig. \ref{fig:heatmaps}A), in agreement with the vast number of shared species within these regions as shown in Fig. \ref{fig:map}A. Pairwise comparisons of trait hypervolumes among biomes show a less clear clustering of climatic zones (Fig. \ref{fig:heatmaps}B). The pairwise comparison of trait hypervolumes among biomes using only those species considered as functionally redundant and widespread shows less overlap in trait spaces among and within climatic zones (Fig. \ref{fig:heatmaps}B). However, even though xeric woodlands are now clustered with the rest of tropical biomes, these habitats along with tropical grassland exhibit great overlap in functional space with temperate biomes such as Mediterranean woodlands and temperate grasslands. 
 
 \end{multicols}
 \end{block}
 
 
-
-			\begin{alertblock}{Discussion}
-			
-The fact that common, widespread species are functionally redundant reinforces the notion that land plants across a wide range of environmental conditions share common characteristics near the core of the functional trait spectrum (Diaz et al., 2016; Wright et al., 2004). 
-
-Despite extensive taxonomic and functional overlap among biomes, they do cluster into distinguishable, biogeographically and climatically sensible units, especially when the functional clustering is based on the most widespread and functionally common species in each biome. However, understanding the similarity in trait space among regions with similar environmental conditions is not sufficient to make accurate predictions of ecosystem function (Forrestel et al., 2017). Advancing these methods will require the not just a better characterization of trait variation within and between vegetation types, but also information on the biogeographic and phylogenetic history of species assemblages and the relative abundance of species within biomes.
-
-      		\end{alertblock}
+%
+%			\begin{block}{Discussion}
+%			
+%The fact that common, widespread species are functionally redundant reinforces the notion that land plants across a wide range of environmental conditions share common characteristics near the core of the functional trait spectrum (Diaz et al., 2016; Wright et al., 2004). 
+%
+%Despite extensive taxonomic and functional overlap among biomes, they do cluster into distinguishable, biogeographically and climatically sensible units, especially when the functional clustering is based on the most widespread and functionally common species in each biome. However, understanding the similarity in trait space among regions with similar environmental conditions is not sufficient to make accurate predictions of ecosystem function (Forrestel et al., 2017). Advancing these methods will require the not just a better characterization of trait variation within and between vegetation types, but also information on the biogeographic and phylogenetic history of species assemblages and the relative abundance of species within biomes.
+%
+%      		\end{block}
 
  \end{column}
 
@@ -249,7 +277,7 @@ Despite extensive taxonomic and functional overlap among biomes, they do cluster
 	\end{figure}
 
 
-      		\begin{alertblock}{Conclusions}
+      		\begin{block}{Conclusions}
       		\begin{itemize}
       		\item Despite progress in the compilation and synthesis of primary biodiversity data, significant knowledge shortfalls persist that may limit our ability to quantify the functional biodiversity of biomes on continental to global scales.
       		
@@ -257,7 +285,7 @@ Despite extensive taxonomic and functional overlap among biomes, they do cluster
       		\item Our results suggest that while the study of the functional diversity of biomes is still in its formative stages, further development of the field will yield insights linking evolution, biogeography, community assembly, and ecosystem function.
       		\end{itemize}
 
-      		\end{alertblock}
+      		\end{block}
 
 
 
@@ -293,10 +321,6 @@ Despite extensive taxonomic and functional overlap among biomes, they do cluster
 
 \end{block}
 
-
-      		\begin{block}{Acknowledgments}
-\scriptsize This study was conducted as a part of the BIEN Working Group (Principal Investigators: Brian J. Enquist, Brad Boyle, Richard Condit, Steven Dolins, Robert K. Peet, and Barbara M. Thiers) supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/).
-      		\end{block}
 
 
     \vskip2ex
