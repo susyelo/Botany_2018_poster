@@ -31,8 +31,8 @@
 \newlength{\sepwid}
 \newlength{\onecolwid}
 \newlength{\twocolwid}
-\setlength{\paperwidth}{1189mm}
-\setlength{\paperheight}{841mm}
+\setlength{\paperwidth}{841mm}
+\setlength{\paperheight}{594mm}
 \setlength{\sepwid}{0.024\paperwidth}
 \setlength{\onecolwid}{0.22\paperwidth}
 \setlength{\twocolwid}{0.464\paperwidth}
@@ -83,7 +83,7 @@
 %\parbox[c]{5in{\includegraphics[width=5in]{./logos/ICL_logo.PNG}}\\ \includegraphics[width=5in]{./logos/ICL_logo.PNG}}}
 \title{Plant functional diversity and the biogeography of biomes in North and South America}
 \author{Susy Echeverr\'ia-Londo\~no$^{1*}$, Brian J. Enquist$^{2}$, Danilo M. Neves$^{2}$, Cyrille Violle$^{3}$ \& Andrew J, Kerkhoff$^{1}$}
-\institute{\small (1) Department of Biology, Kenyon College, Gambier, Ohio, USA; (2) Department of Ecology and Evolutionary Biology, University of Arizona, Tucson, Arizona, USA; (3) Centre d'Ecologie Fonctionnelle et Evolutive (UMR 5175), CNRS, Universit\'e de Montpellier, Universit\'e Paul Val\'ery, Montpellier, France \\ *echeverrialondono1@kenyon.edu}
+\institute{(1) Department of Biology, Kenyon College, Gambier, Ohio, USA; (2) Department of Ecology and Evolutionary Biology, University of Arizona, Tucson, Arizona, USA; (3) Centre d'Ecologie Fonctionnelle et Evolutive (UMR 5175), CNRS, Universit\'e de Montpellier, Universit\'e Paul Val\'ery, Montpellier, France \\ *echeverrialondono1@kenyon.edu}
 
 %-----------------------------------------------------------
 % Start the poster itself
@@ -93,7 +93,7 @@
 %-----------------------------------------------------------
 
 \begin{document}
-	\small
+	\footnotesize
 \begin{frame}[t]
   \begin{columns}[t]												% the [t] option aligns the column's content at the top
     \begin{column}{\sepwid}\end{column}			% empty spacer column
@@ -177,7 +177,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1.05\textwidth]{./figures/Trait_sampling}
+	\includegraphics[width=\textwidth]{./figures/Trait_sampling}
 	\caption{ \footnotesize Proportion of species with known (gray) or missing (black) trait values to the total number of species in the BIEN 3.0 database. Phylogeny at the left corresponds to the ALLBM tree from Smith and Brown, 2018, which was used to phylogenetically imputed missing trait data using the R package ``Rphylopars'' v 0.2.9 (Goolsby et al., 2017)}
 	\label{fig:sampling}
 \end{figure}
@@ -185,7 +185,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 	
 	
 \begin{block}{Acknowledgments}
-\scriptsize This study was conducted as a part of the BIEN Working Group supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We also thank Brad Boyle, Nathan Kraft, Brian Maitner, Brian McGill, Brody Sandel, Naia Morueta-Holme, Stephen Smith, Jens-Christian Svenning, Susan K. Wiser, Robert K Peet for their contribution in developing the BIEN database. We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/). 
+\tiny This study was conducted as a part of the BIEN Working Group supported by the National Centre for Ecological Analysis and Synthesis, a center funded by the National Science Foundation (NSF Grant EF-0553768), the Univ. of California, Santa Barbara, and the State of California. The BIEN Working Group was also supported by the iPlant Collaborative (NSF Grant DBI- 0735191). We also thank Brad Boyle, Nathan Kraft, Brian Maitner, Brian McGill, Brody Sandel, Naia Morueta-Holme, Stephen Smith, Jens-Christian Svenning, Susan K. Wiser, Robert K Peet for their contribution in developing the BIEN database. We thank all the contributors for the invaluable data provided to the BIEN (http://bien.nceas.ucsb.edu/bien/people/data-contributors/). 
 \end{block}
 
 
@@ -216,7 +216,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.467\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
+	\includegraphics[width=0.456\textwidth]{./figures/All_biomes_heatmap_logTraits.pdf}
 	\caption{ \footnotesize Patterns of functional distinctiveness among biomes. Distinctiveness represents how species are functionally distant from another within a biome (i.e., the mean pairwise phenotypic distance from a focal species to all the others). The larger the value, the more distant a species is to the centroid of the biome's functional space. Widespreadness measures how geographically common a species is. A value of 0 indicates that a species is present in a single biome cell.}
 	\label{fig:distinct_common}
 \end{figure}
@@ -224,8 +224,8 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.pdf}\\
-	\includegraphics[width=0.4\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.pdf}
+	\includegraphics[width=0.412\textwidth]{./figures/Total_Moist_Dry_Savanna_Xeric.png}\\
+	\includegraphics[width=0.412\textwidth]{./figures/Redun_Moist_Dry_Savanna_Xeric.png}
 	\caption{ \footnotesize Trait hypervolumes for tropical biomes using the whole pool of species (top) and using species that are functionally redundant and widespread in each biome (bottom).  Hypervolumes are shown in a 2D projection using the combination of all six trait axes implemented in this study. The main traits differentiating biomes appear to be traits related to overall plant size, including both mature height and seed mass, rather than by leaf economics trait}
 	\label{fig:hypervolumes2}
 \end{figure}
@@ -255,7 +255,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./figures/heatmaps.pdf}
+		\includegraphics[width=0.65\textwidth]{./figures/heatmaps.pdf}
 		\caption{\footnotesize (A) Pairwise dissimilarity in species composition among biomes. (B) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using the total number of species. (C) Pairwise dissimilarity in trait hypervolumes (1-S\o rensen similarity) among biomes using only those species that are considered as functionally redundant and widespread. The lighter the cell the greater the dissimilarity.}
 		\label{fig:heatmaps}
 	\end{figure}
@@ -277,7 +277,7 @@ We used the BIEN database to extract range maps and trait measurements of plant 
 
 \begin{block}{References}
 
-\scriptsize
+\tiny
 
 	\begin{itemize}
 
