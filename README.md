@@ -3,7 +3,7 @@
 The Latex code was modified from the Latex poster template from Nathaniel Johnston found [here](http://www.nathanieljohnston.com/2009/08/latex-poster-template/)
 
 
-The complete publication of the results of the poster can be found [here](https://www.frontiersin.org/articles/10.3389/fevo.2018.00219/full)
+The original publication can be found in https://www.frontiersin.org/articles/10.3389/fevo.2018.00219/full
 
 ![](./figures/poster_botany_2018_preview.jpeg)
 
